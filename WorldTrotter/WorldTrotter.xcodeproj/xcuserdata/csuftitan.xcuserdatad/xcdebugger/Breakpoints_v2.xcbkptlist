@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "72974569-6FA2-4479-B649-7BE2A348CF1D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3A789C70-0D0A-4812-9C26-A173E3049165"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WorldTrotter/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3A789C70-0D0A-4812-9C26-A173E3049165 - 2bb7cc55dc8222bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldTrotter.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WorldTrotter.ViewController"
+                  moduleName = "WorldTrotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WorldTrotter/WorldTrotter/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "3A789C70-0D0A-4812-9C26-A173E3049165 - 4b3e950b77e60119"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldTrotter.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; WorldTrotter.ViewController"
+                  moduleName = "WorldTrotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WorldTrotter/WorldTrotter/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "3A789C70-0D0A-4812-9C26-A173E3049165 - ded65471a2b64c31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldTrotter.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WorldTrotter.ViewController&gt;"
+                  moduleName = "WorldTrotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WorldTrotter/WorldTrotter/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "3A789C70-0D0A-4812-9C26-A173E3049165 - a8a27a7661a30db3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldTrotter.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;WorldTrotter.ViewController&gt;"
+                  moduleName = "WorldTrotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WorldTrotter/WorldTrotter/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "3A789C70-0D0A-4812-9C26-A173E3049165 - 5c249005c1858eee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WorldTrotter.ViewController.__deallocating_deinit"
+                  moduleName = "WorldTrotter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/csuftitan/Desktop/WorldTrotter/WorldTrotter/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
