@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djr-Sl-wed">
+                                <rect key="frame" x="118" y="348" width="157" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="157" id="6vh-RP-Rd2"/>
+                                    <constraint firstAttribute="width" constant="161" id="icX-IH-Xvc"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title=""/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6TC-bH-3Kn"/>
+                                    <action selector="buttonPresseed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iqN-Qo-0vP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What should I do? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GN-23-h2l">
+                                <rect key="frame" x="126" y="416" width="141" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6GN-23-h2l" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="99W-eR-Ril"/>
+                            <constraint firstItem="djr-Sl-wed" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OhE-sU-i4M"/>
+                            <constraint firstItem="djr-Sl-wed" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Pu5-u0-ii8"/>
+                            <constraint firstItem="6GN-23-h2l" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ebJ-88-Qke"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="djr-Sl-wed" id="hGn-d0-y3x"/>
+                        <outlet property="decisionText" destination="6GN-23-h2l" id="XP7-n3-oOH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96.946564885496173" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
