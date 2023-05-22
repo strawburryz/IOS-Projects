@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A9A7625298AEF2400653A58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A7624298AEF2400653A58 /* AppDelegate.m */; };
+		7A9A7628298AEF2400653A58 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A7627298AEF2400653A58 /* SceneDelegate.m */; };
+		7A9A762B298AEF2400653A58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A762A298AEF2400653A58 /* ViewController.m */; };
+		7A9A762E298AEF2400653A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9A762C298AEF2400653A58 /* Main.storyboard */; };
+		7A9A7630298AEF2500653A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9A762F298AEF2500653A58 /* Assets.xcassets */; };
+		7A9A7633298AEF2500653A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9A7631298AEF2500653A58 /* LaunchScreen.storyboard */; };
+		7A9A7636298AEF2500653A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A7635298AEF2500653A58 /* main.m */; };
+		7A9A7640298AEF2600653A58 /* InstaEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A763F298AEF2600653A58 /* InstaEmailTests.m */; };
+		7A9A764A298AEF2600653A58 /* InstaEmailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A7649298AEF2600653A58 /* InstaEmailUITests.m */; };
+		7A9A764C298AEF2600653A58 /* InstaEmailUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9A764B298AEF2600653A58 /* InstaEmailUITestsLaunchTests.m */; };
+		7A9A765A298AEF8800653A58 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9A7659298AEF8800653A58 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A9A763C298AEF2600653A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9A7618298AEF2400653A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9A761F298AEF2400653A58;
+			remoteInfo = InstaEmail;
+		};
+		7A9A7646298AEF2600653A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9A7618298AEF2400653A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9A761F298AEF2400653A58;
+			remoteInfo = InstaEmail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A9A7620298AEF2400653A58 /* InstaEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9A7623298AEF2400653A58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A9A7624298AEF2400653A58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A9A7626298AEF2400653A58 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		7A9A7627298AEF2400653A58 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		7A9A7629298AEF2400653A58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A9A762A298AEF2400653A58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A9A762D298AEF2400653A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A9A762F298AEF2500653A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A9A7632298AEF2500653A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A9A7634298AEF2500653A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9A7635298AEF2500653A58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A9A763B298AEF2600653A58 /* InstaEmailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaEmailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9A763F298AEF2600653A58 /* InstaEmailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaEmailTests.m; sourceTree = "<group>"; };
+		7A9A7645298AEF2600653A58 /* InstaEmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaEmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9A7649298AEF2600653A58 /* InstaEmailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaEmailUITests.m; sourceTree = "<group>"; };
+		7A9A764B298AEF2600653A58 /* InstaEmailUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaEmailUITestsLaunchTests.m; sourceTree = "<group>"; };
+		7A9A7659298AEF8800653A58 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9A761D298AEF2400653A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A765A298AEF8800653A58 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7638298AEF2600653A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7642298AEF2600653A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A9A7617298AEF2400653A58 = {
+			isa = PBXGroup;
+			children = (
+				7A9A7622298AEF2400653A58 /* InstaEmail */,
+				7A9A763E298AEF2600653A58 /* InstaEmailTests */,
+				7A9A7648298AEF2600653A58 /* InstaEmailUITests */,
+				7A9A7621298AEF2400653A58 /* Products */,
+				7A9A7658298AEF8700653A58 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A9A7621298AEF2400653A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A7620298AEF2400653A58 /* InstaEmail.app */,
+				7A9A763B298AEF2600653A58 /* InstaEmailTests.xctest */,
+				7A9A7645298AEF2600653A58 /* InstaEmailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9A7622298AEF2400653A58 /* InstaEmail */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A7623298AEF2400653A58 /* AppDelegate.h */,
+				7A9A7624298AEF2400653A58 /* AppDelegate.m */,
+				7A9A7626298AEF2400653A58 /* SceneDelegate.h */,
+				7A9A7627298AEF2400653A58 /* SceneDelegate.m */,
+				7A9A7629298AEF2400653A58 /* ViewController.h */,
+				7A9A762A298AEF2400653A58 /* ViewController.m */,
+				7A9A762C298AEF2400653A58 /* Main.storyboard */,
+				7A9A762F298AEF2500653A58 /* Assets.xcassets */,
+				7A9A7631298AEF2500653A58 /* LaunchScreen.storyboard */,
+				7A9A7634298AEF2500653A58 /* Info.plist */,
+				7A9A7635298AEF2500653A58 /* main.m */,
+			);
+			path = InstaEmail;
+			sourceTree = "<group>";
+		};
+		7A9A763E298AEF2600653A58 /* InstaEmailTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A763F298AEF2600653A58 /* InstaEmailTests.m */,
+			);
+			path = InstaEmailTests;
+			sourceTree = "<group>";
+		};
+		7A9A7648298AEF2600653A58 /* InstaEmailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A7649298AEF2600653A58 /* InstaEmailUITests.m */,
+				7A9A764B298AEF2600653A58 /* InstaEmailUITestsLaunchTests.m */,
+			);
+			path = InstaEmailUITests;
+			sourceTree = "<group>";
+		};
+		7A9A7658298AEF8700653A58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9A7659298AEF8800653A58 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A9A761F298AEF2400653A58 /* InstaEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9A764F298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmail" */;
+			buildPhases = (
+				7A9A761C298AEF2400653A58 /* Sources */,
+				7A9A761D298AEF2400653A58 /* Frameworks */,
+				7A9A761E298AEF2400653A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaEmail;
+			productName = InstaEmail;
+			productReference = 7A9A7620298AEF2400653A58 /* InstaEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A9A763A298AEF2600653A58 /* InstaEmailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9A7652298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmailTests" */;
+			buildPhases = (
+				7A9A7637298AEF2600653A58 /* Sources */,
+				7A9A7638298AEF2600653A58 /* Frameworks */,
+				7A9A7639298AEF2600653A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9A763D298AEF2600653A58 /* PBXTargetDependency */,
+			);
+			name = InstaEmailTests;
+			productName = InstaEmailTests;
+			productReference = 7A9A763B298AEF2600653A58 /* InstaEmailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A9A7644298AEF2600653A58 /* InstaEmailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9A7655298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmailUITests" */;
+			buildPhases = (
+				7A9A7641298AEF2600653A58 /* Sources */,
+				7A9A7642298AEF2600653A58 /* Frameworks */,
+				7A9A7643298AEF2600653A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9A7647298AEF2600653A58 /* PBXTargetDependency */,
+			);
+			name = InstaEmailUITests;
+			productName = InstaEmailUITests;
+			productReference = 7A9A7645298AEF2600653A58 /* InstaEmailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A9A7618298AEF2400653A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7A9A761F298AEF2400653A58 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7A9A763A298AEF2600653A58 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7A9A761F298AEF2400653A58;
+					};
+					7A9A7644298AEF2600653A58 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7A9A761F298AEF2400653A58;
+					};
+				};
+			};
+			buildConfigurationList = 7A9A761B298AEF2400653A58 /* Build configuration list for PBXProject "InstaEmail" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A9A7617298AEF2400653A58;
+			productRefGroup = 7A9A7621298AEF2400653A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A9A761F298AEF2400653A58 /* InstaEmail */,
+				7A9A763A298AEF2600653A58 /* InstaEmailTests */,
+				7A9A7644298AEF2600653A58 /* InstaEmailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9A761E298AEF2400653A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A7633298AEF2500653A58 /* LaunchScreen.storyboard in Resources */,
+				7A9A7630298AEF2500653A58 /* Assets.xcassets in Resources */,
+				7A9A762E298AEF2400653A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7639298AEF2600653A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7643298AEF2600653A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A9A761C298AEF2400653A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A762B298AEF2400653A58 /* ViewController.m in Sources */,
+				7A9A7625298AEF2400653A58 /* AppDelegate.m in Sources */,
+				7A9A7636298AEF2500653A58 /* main.m in Sources */,
+				7A9A7628298AEF2400653A58 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7637298AEF2600653A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A7640298AEF2600653A58 /* InstaEmailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9A7641298AEF2600653A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9A764A298AEF2600653A58 /* InstaEmailUITests.m in Sources */,
+				7A9A764C298AEF2600653A58 /* InstaEmailUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A9A763D298AEF2600653A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9A761F298AEF2400653A58 /* InstaEmail */;
+			targetProxy = 7A9A763C298AEF2600653A58 /* PBXContainerItemProxy */;
+		};
+		7A9A7647298AEF2600653A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9A761F298AEF2400653A58 /* InstaEmail */;
+			targetProxy = 7A9A7646298AEF2600653A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A9A762C298AEF2400653A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9A762D298AEF2400653A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A9A7631298AEF2500653A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9A7632298AEF2500653A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A9A764D298AEF2600653A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A9A764E298AEF2600653A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A9A7650298AEF2600653A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SV8KP4989;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaEmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A9A7651298AEF2600653A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3SV8KP4989;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = InstaEmail/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7A9A7653298AEF2600653A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaEmail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaEmail";
+			};
+			name = Debug;
+		};
+		7A9A7654298AEF2600653A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaEmail.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaEmail";
+			};
+			name = Release;
+		};
+		7A9A7656298AEF2600653A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaEmail;
+			};
+			name = Debug;
+		};
+		7A9A7657298AEF2600653A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cs411.InstaEmailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaEmail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A9A761B298AEF2400653A58 /* Build configuration list for PBXProject "InstaEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9A764D298AEF2600653A58 /* Debug */,
+				7A9A764E298AEF2600653A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9A764F298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9A7650298AEF2600653A58 /* Debug */,
+				7A9A7651298AEF2600653A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9A7652298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9A7653298AEF2600653A58 /* Debug */,
+				7A9A7654298AEF2600653A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9A7655298AEF2600653A58 /* Build configuration list for PBXNativeTarget "InstaEmailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9A7656298AEF2600653A58 /* Debug */,
+				7A9A7657298AEF2600653A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A9A7618298AEF2400653A58 /* Project object */;
+}

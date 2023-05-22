@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hQb-ey-2Av">
+                                <rect key="frame" x="36.666666666666657" y="318" width="320" height="216"/>
+                                <variation key="heightClass=regular-widthClass=compact" hidden="NO"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="uiL-LT-cgU"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="eUA-dp-GTR"/>
+                                </connections>
+                            </pickerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="t40-JI-HTv">
+                                <rect key="frame" x="19" y="262" width="355.33333333333331" height="36"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm... " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HD0-fA-LJ1">
+                                        <rect key="frame" x="0.0" y="0.0" width="78" height="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="and feeling..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KGs-na-0P4">
+                                        <rect key="frame" x="178" y="0.0" width="177.33333333333337" height="36"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vq3-oL-B71">
+                                <rect key="frame" x="128.33333333333331" y="606" width="136.33333333333331" height="44.666666666666629"/>
+                                <color key="tintColor" red="0.94936676430947997" green="0.7818128434420849" blue="0.86152267297354901" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Send Email">
+                                    <fontDescription key="titleFontDescription" name="Impact" family="Impact" pointSize="25"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="sendPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRy-bW-NYV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="....about it." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ILd-8p-PO4">
+                                <rect key="frame" x="122.00000000000001" y="544" width="149.33333333333337" height="37"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="Fqn-Fu-ok1">
+                                <rect key="frame" x="28" y="215.33333333333334" width="337.33333333333331" height="38.333333333333343"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f2K-aD-xlW">
+                                        <rect key="frame" x="0.0" y="0.0" width="86.666666666666671" height="38.333333333333336"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type a note here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VJB-ll-1jZ">
+                                        <rect key="frame" x="122.66666666666667" y="0.0" width="214.66666666666663" height="38.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="FaQ-1s-tzL"/>
+                                            <action selector="doneEditing:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="S74-hL-lWK"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="InstaEmail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="det-3W-DlK">
+                                <rect key="frame" x="131.66666666666666" y="155.66666666666666" width="129.99999999999997" height="36.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="ILd-8p-PO4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Ht-7R-khq"/>
+                            <constraint firstItem="hQb-ey-2Av" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="845-vw-ADi"/>
+                            <constraint firstItem="hQb-ey-2Av" firstAttribute="top" secondItem="t40-JI-HTv" secondAttribute="bottom" constant="20" id="DJH-yZ-XEf"/>
+                            <constraint firstItem="Fqn-Fu-ok1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L0X-sa-8KN"/>
+                            <constraint firstItem="t40-JI-HTv" firstAttribute="top" secondItem="Fqn-Fu-ok1" secondAttribute="bottom" constant="8.5" id="M3y-Ba-pdZ"/>
+                            <constraint firstItem="hQb-ey-2Av" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PNV-qJ-Uza"/>
+                            <constraint firstItem="t40-JI-HTv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rb2-jn-7yr"/>
+                            <constraint firstItem="vq3-oL-B71" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VRT-1e-wUe"/>
+                            <constraint firstItem="Fqn-Fu-ok1" firstAttribute="top" secondItem="det-3W-DlK" secondAttribute="bottom" constant="23" id="gco-nr-oRz"/>
+                            <constraint firstItem="vq3-oL-B71" firstAttribute="top" secondItem="ILd-8p-PO4" secondAttribute="bottom" constant="25" id="ifR-PD-zu4"/>
+                            <constraint firstItem="ILd-8p-PO4" firstAttribute="top" secondItem="hQb-ey-2Av" secondAttribute="bottom" constant="10" id="oCV-py-9hg"/>
+                            <constraint firstItem="det-3W-DlK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y6v-vT-oSd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="emailpicker" destination="hQb-ey-2Av" id="bOZ-t0-mzt"/>
+                        <outlet property="notesField" destination="VJB-ll-1jZ" id="lFZ-Vt-xd8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="527.48091603053433" y="-14.084507042253522"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
